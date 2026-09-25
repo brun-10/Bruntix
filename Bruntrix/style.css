@@ -1,0 +1,268 @@
+
+.wow{
+    font-size: 30px;
+    color:white;
+}
+.great{
+    font-size: 100px;
+    color:black;
+
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    padding: 20px;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+input{
+    height:30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid rgb(12, 87, 87);
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(12, 87, 87) ;
+    transition: all 0.5s ease;
+}
+.button:hover{
+    color: indigo;
+    background-color: rgb(26, 190, 190);
+    transform: scale(1.1);
+    border: 2px solid rgb(12, 87, 87);
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#universal{
+    background-color: rgba(60, 60, 60, 0.85);
+    border-radius: 10px;
+    display: grid;
+    align-self:center;
+    border: 3px solid black;
+    width: 400px;
+    margin:  auto;
+}
+.body {
+    position: relative;
+    color: white;
+}
+
+.body::before {
+    content:"";
+    position: fixed;
+    inset: 0;
+    background: url("images/bruno.jpg") center/cover;
+    filter: blur(8px);
+    transform: scale(1.05);
+    z-index: -1;
+}
+.body2{
+background-image: url("images/img.png");
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+.nigga{
+    font-size: 100px;
+    color: gold;
+    text-align: center;
+    text-shadow: 6px 6px 9px black;
+}
+.gamma{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+     text-shadow: 6px 6px 9px black;
+}
+.signin{
+   height: 40px;
+    width: 100px;
+    background-color: green;
+    color: white;
+        border-radius: 10px;  
+    } 
+.signin:hover{
+    color: indigo;
+     background-color: rgb(182, 238, 98);
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid violet;
+    cursor: pointer;
+
+}
+.signup{
+   height: 40px;
+    width: 100px;
+    background-color: violet;
+    color: white;
+    border-radius: 10px;  
+     transition:all 0.5s ease;
+} 
+.signup:hover{
+    color: indigo;
+     background-color: rgb(235, 195, 235);
+    transform: scale(1.1);
+   
+    border: 2px solid violet;
+    cursor: pointer;
+
+}
+.myboyolivier{
+   text-align: end;
+}
+.omega{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+.men{
+    border: 1px solid black;
+    width: 1800px;
+    height: 500px;
+    border-radius: 10px;
+    display: grid;
+}
+.men img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display:block ;
+
+}
+
+.svg1{
+     fill:none; 
+    stroke:black;
+     stroke-linecap:round; 
+     stroke-linejoin:round; 
+     stroke-width:2; 
+     height: 100px;
+     width: 60px;
+     transition: all 0.3s ease;
+}
+.dark svg{
+    stroke: white ;
+}
+.continue{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(3, 68, 3);
+    color: white;
+    border-radius: 10px;
+ transition: all 0.5s ease;
+}
+.continue:hover{
+     color: white;
+     background-color: rgb(15, 185, 15);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.headingname{
+    padding-top:auto;
+}
+.image{
+    width: 850px;
+    height: 600px;
+    border:1px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+transition:all 0.4s ease;
+    
+}
+.image:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.choices{
+    display: grid;
+    gap:50px;
+    grid-template-columns: repeat(2,1fr);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    transition: all 0.3s ease;
+}
+.switch input {
+    display: none;
+}
+.slider {
+    position: absolute;
+    inset: 0;
+    background-color: rgb(107, 100, 100);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.slider::before {
+    content: "";
+    position: absolute; 
+    width: 19px;
+    height: 19px;
+    left: 3px;
+    top: 3px;
+    background: linear-gradient(rgb(233, 226, 226),rgb(59, 56, 56));
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+input:checked + .slider {
+    background-color: rgb(22, 21, 21);
+    transition:all 0.5s ease;
+}
+
+input:checked + .slider::before {
+    transform: translateX(25px);
+    transition: all 0.5s ease;
+}
+.dark {
+    background-color:rgb(34, 33, 33);
+    min-height: 100vh;
+transition: all 0.5s ease;
+
+}
+.webcolor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delta{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
